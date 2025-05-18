@@ -1,0 +1,7 @@
+site_name: MyHomeLab
+site_url: https://myhomelab.co.in
+theme:
+  name: material
+  palette:
+    primary: black
+    

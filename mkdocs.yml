@@ -4,4 +4,12 @@ theme:
   name: material
   palette:
     primary: black
-    
+  Plugin:
+   -blog
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+
+

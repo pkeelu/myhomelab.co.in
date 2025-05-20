@@ -1,4 +1,5 @@
-# Welcome to Homelab Addiction !!
+# Home
+Welcome to Homelab Addiction !!
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 

@@ -4,12 +4,46 @@ theme:
   name: material
   palette:
     primary: black
-  Plugin:
-   -blog
+
+  plugins:
+    - search
+    - blog
+
   features:
     - navigation.instant
+    - navigation.instant.preview
     - navigation.instant.progress
     - navigation.tracking
     - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - search.share   
+
+  Nav:
+    - Home: index.md
+    
+    - About: 
+      - About Me: About/about.md
+      - Childhood: About/childhood.md
+    
+    - Homelab:
+      - MySetup: Homelab/mysetup.md
+    
+    - Automation:
+      - Ansible: Automation/Ansible.md
+      - Terraform: Automation/Terraform.md
+      - Python: Automation/Python.md
+      - Proxmox: 
+      - Linux:
+    - Blog:
+      - blog/index.md
+
+
+
 
 
